@@ -28,19 +28,34 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 **Procedure**
 
+
+
+1. Understand the 4-bit up-counting sequence (0000–1111).
+
+2. Write the Verilog module using a common clock and reset.
+
+3. Compile the code and remove errors.
+
+4. Create a testbench with clock and reset signals.
+
+5. Simulate and verify the count sequence to validate functionality.
 /* write all the steps invloved */
 
 **PROGRAM**
+<img width="1920" height="1080" alt="synchronous up counter program" src="https://github.com/user-attachments/assets/6df54e98-9c3d-4fb0-9e07-b76386aaf65d" />
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by:S Tozer Theophilus RegisterNumber:25016814
 */
 
 **RTL LOGIC UP COUNTER**
+<img width="906" height="368" alt="synchronous up counter RTL diagram" src="https://github.com/user-attachments/assets/785e3362-2b10-41ed-a85e-26e6e3678f30" />
 
 **TIMING DIAGRAM FOR IP COUNTER**
+<img width="1920" height="1080" alt="synchronous up counter waveform" src="https://github.com/user-attachments/assets/757d56bd-4e92-4651-ad53-9914694f9c72" />
 
 **TRUTH TABLE**
 
 **RESULTS**
+The 4-bit synchronous up counter was successfully implemented and simulated. The output count increased sequentially from 0000 to 1111 on each clock pulse, and the results matched the expected up-counting sequence, confirming correct functionality.
